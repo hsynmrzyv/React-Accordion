@@ -15,9 +15,6 @@ const classes = {
 const ListItem = (props) => {
   return (
     <li
-      onClick={() => {
-        props.onClick(props.index);
-      }}
       className={
         classes.liClasses + `${props.singleQuestion.show && "bg-purple-50"}`
       }
